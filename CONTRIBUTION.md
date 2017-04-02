@@ -7,5 +7,5 @@ How to Contribute
 * Please include links to external resources, so candidate does not have to waste time.  These would include installing dependencies like pip, brew etc. 
 * Please follow the template provided.
 * A `Tag/Category` is required for each projects.
-* An `Unique_Id` should be added for each project
+* `Project Serial Number` should be added for each project, it shoula be unique, and should be in human readable form.
 * Do not copy content from other sites, just redirect them(copyright issues.)
