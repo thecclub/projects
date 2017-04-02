@@ -1,4 +1,4 @@
-imple HTTP Server
+Simple HTTP Server
 ===============
 
 ### Objective
