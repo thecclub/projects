@@ -18,7 +18,7 @@ The tool that you are going to use is netdata. Lets first start it up by install
 
 - You need git as you next dependency install it from [**HERE**](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Open [terminal](https://en.wikipedia.org/wiki/Traceroute) check if git installed properly type `git` :octocat:. You should see something like this :->
 
-      ![Code Preview](https://raw.githubusercontent.com/harshitanand/projects/master/images/git-preview.png)
+![Code Preview](https://raw.githubusercontent.com/harshitanand/projects/master/images/git-preview.png)
 
 ### ** Beware don't close your Terminal it's not done yet :stuck_out_tongue_winking_eye:**
 
@@ -33,4 +33,4 @@ The tool that you are going to use is netdata. Lets first start it up by install
 
 - It's done now open your browser and type `localhost:19999` [**magic happens here**](localhost:19999/) See something like this
 
-      ![netdata](https://cloud.githubusercontent.com/assets/2662304/14092712/93b039ea-f551-11e5-822c-beadbf2b2a2e.gif)
+![netdata](https://cloud.githubusercontent.com/assets/2662304/14092712/93b039ea-f551-11e5-822c-beadbf2b2a2e.gif)
