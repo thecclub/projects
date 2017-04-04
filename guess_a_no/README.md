@@ -1,14 +1,14 @@
-Game: Guess A Number
+Game: Joker's Evil Number
 =======
 
 ### Objective
 
-Objective is to build a fun game, which will help a User to get familar with random no and basic logic. It's a small script and any language can be used for coding.
+Batman has been locked inside a room by you(**Joker**) and to get out he has to enter a password which is less than 100, for every wrong move batman makes you mock him with an evil message :grin:.
 
+You have to go and meet and meet **Harley Quinn**, can you write a program to do this for you.
 
 Procedure
 -----------
-
 
 * Generate a random number from 1 to 100
 * Ask the User to guess the number
