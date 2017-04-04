@@ -5,7 +5,7 @@ Game: Joker's Evil Number
 
 Batman has been locked inside a room by you(**Joker**) and to get out he has to enter a password which is less than 100, for every wrong move batman makes you mock him with an evil message :grin:.
 
-You have to go and meet and meet **Harley Quinn**, can you write a program to do this for you.
+You have to go and meet **Harley Quinn**, can you write a program to do this for you.
 
 Procedure
 -----------
