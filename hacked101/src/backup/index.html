@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from superset.dizmarket.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Apr 2017 13:36:18 GMT -->
+<head>
+	<!-- Basic -->
+	<meta charset="utf-8">
+	<title>SUPERSET</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:300,300i,700,900,900i" rel="stylesheet">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="assets/css/font-style.css"/>
+	<!-- Carousel -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.css"/>
+	<link rel="stylesheet" href="assets/css/owl.theme.css"/>
+	<link rel="stylesheet" href="assets/css/owl.transitions.css"/>
+	<!-- Inview Master -->
+	<link rel="stylesheet" href="assets/css/animate.css"/>
+	<!-- Slick Slider -->
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+	<!-- Lightbox -->
+	<link rel="stylesheet" type="text/css" href="assets/css/lightbox.css"/>
+	<!-- JsPlayer -->
+	<link rel="stylesheet" href="assets/css/circle.player.css">
+	<!-- Scrollbar -->
+	<link rel="stylesheet" href="assets/css/jquery.scrollbar.css">
+	<!-- Template CSS -->
+	<link rel="stylesheet" href="assets/css/style.css"/>
+	<link rel="stylesheet" href="assets/css/responsive.css"/>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<style>
+		header #map-canvas {
+			-webkit-clip-path: url(#chopChop);
+			-moz-clip-path: url(#chopChop);
+			-ms-clip-path: url(#chopChop);
+			clip-path: url(#chopChop);
+			z-index: 1;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- PRELOADER
+	============================================= -->
+	<div id="preloader">
+		<div class="cssload-loader">
+			<div class="cssload-inner cssload-one"></div>
+			<div class="cssload-inner cssload-two"></div>
+			<div class="cssload-inner cssload-three"></div>
+		</div>
+	</div>
+
+	<!-- HEADER
+	============================================= -->
+	<header id="header">
+		<div class="wrapper">
+			<!-- Left Block -->
+			<div class="left-bl">
+				<!-- SCHEDULE NEWS MOBILE -->
+				<div class="schedule-news-btn">
+					<div class="shedule-btn"><span class="icon-clock"></span><p>Schedule</p></div>
+					<div class="news-btn"><span class="icon-newspaper"></span><p>News</p></div>
+				</div>
+				<!--  SCHEDULE Block  -->
+				<div class="schedule-time">
+					<div class="close-menu"></div>
+					<p class="schedule-text">Schedule</p>
+					<div class="time">
+						<ul>
+							<li><div>13:00 - 14:30</div><div>Pilates</div></li>
+							<li class="active"><div>10:30 - 11:30</div><div>Total body</div></li>
+							<li><div>11:30 - 12:30</div><div>Fitness Mix</div></li>
+							<li><div>12:30 - 13:00</div><div>Power Fitness</div></li>
+						</ul>
+					</div>
+					<div class="schedule-after"></div>
+				</div>
+				<!--  News and Events Block  -->
+				<div class="news">
+					<div class="close-menu"></div>
+					<p class="news-title">News and events</p>
+					<div class="news-image">
+						<img src="assets/images/events.png" alt="" />
+						<div class="news-image-text">
+							<div>80<span>%</span></div>
+							<div>Protein</div>
+						</div>
+					</div>
+					<div class="news-bl">
+						<ul class="news-text">
+							<li><span class="news-date">26.06.2016</span><a href="#">Today, we give all the presents!</a></li>
+							<li><span class="news-date">19.05.2016</span><a href="#">Hooray! We have opened.</a></li>
+						</ul>
+						<!--<div class="show-all">
+							<a href="#">Show all</a>
+						</div>-->
+					</div>
+				</div>
+			</div>
+			<!-- Center Block -->
+			<div class="center-bl">
+				<!-- Logo Image -->
+				<div class="logo">
+					<img src="assets/images/logo.png" alt=""/>
+				</div>
+				<!-- Location and Map Block  -->
+				<div class="location">
+					<ul>
+						<li>Ukraine, Kyiv, Irpen</li>
+						<li class="steet"><span>st. Gaidar 8</span>  <span>/ Basement</span></li>
+						<li>096  06  14  397</li>
+					</ul>
+				</div>
+				<!-- Location and Map Block  -->
+				<div class="social-links">
+					<a href="#"><span class="icon-google-plus"></span></a>
+					<a href="#"><span class="icon-facebook"></span></a>
+					<a href="#"><span class="icon-twitter"></span></a>
+				</div>
+				<!-- Map  -->
+				<div id="map">
+					<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSDlMWErr_gwT5d5wze8oK9muKPuHLtKQ"></script>
+					<div id="map-canvas"></div>
+					<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="daSVG" viewBox="0 0 410 205">
+					<clipPath id="chopChop">
+					<polygon points="8 40.67 13.67 38.33 15.33 33.67 18.67 30 23.67 30 30.67 30 42.67 27.67 79.67 22 124.67 14.33 146.33 12.33 184.33 6.67 205.33 6.67 223.33 6.67 242 3.67
+					264 1.33 295.67 0 315.33 0 323.67 3.33 330 5.67 336 6.33 341 6 345 6.67 346.67 9.67 346.67 13.67 342 16 338.33 18 336.33 21.67 331.67 22.67 327 23.67 324.33 27.67 327
+					30 332.33 29.67 337.67 29.67 338.33 32.67 339 36.67 337.33 39 332.67 40.67 329.67 44.33 281.33 52.33 314.67 52.33 318.33 54 325 54 328.67 57.67 338.67 57.67 342 59.67
+					344.67 59.67 346.67 62 346.67 64 345.33 67 344 69.33 345.33 71 345.33 73.67 344.33 77 336.33 83.67 355.33 80.33 365.33 76.67 373 74.67 380.67 75 384.33 76.33 388 79 394
+					79.33 395.33 81 399 81.33 403.33 80.33 405.67 80.33 407 83.67 407 87 405 89.33 400 91 397.67 95.33 307.33 122.67 316 124 318.33 124 317.67 128 317.33 130.33 309.67 136.67
+					304 140.67 278.33 151 262.33 155 253.67 157.33 252.33 162 246 164.67 246 167 239.67 171 238.33 178.33 231.33 181.67 234.33 181.67 236.33 181.67 237 186.67 234.67 192.67
+					226.67 198.33 224.67 200.33 219.67 203.67 216.33 201 207.5 199.67 201 198.67 193.67 197 188.67 195 185 194 179.67 194.67 168 200.33 166.67 197 159 197.67 158.67 194.67
+					146.67 194.33 143.67 196.33 134.33 196.33 130.67 194.67 124 194.33 124 191.67 111.67 194.67 105 198 102.67 197.33 103 194.33 98 195.33 93.67 195.33 94.67 193 88 192.67
+					86.33 191 77.67 190.67 70.33 186.33 77.33 182.67 78.67 177.33 100.67 169.33 92.33 168.67 93 167 86.33 166.33 83 165 74.67 163.67 68.67 160 75 156 75.33 153 78 152 78.67
+					150.33 82.67 149 75.67 147.33 70.67 145.33 65.67 145 60.33 141 65.67 137.67 68.67 133 83 127.67 33.67 139 29.67 136.33 22.33 137 22.33 134.67 16.67 134.33 14.67 132.33
+					6.33 132.33 0 127.33 4.33 124.33 6.67 120 9.33 117.33 51.33 104 53.33 99.33 68.33 92.67 87.67 87.67 102 85.67 109.33 85.33 109 82.67 111 78.33 105 78.33 99 74.33 105.67
+					 72 104.67 69 107 66 91.33 62 84.67 57.33 88.67 53 80 53 78 50.33 62.33 50.67 52.67 52 42.33 52 29.67 49.67 31.67 48.33 15.33 44.67 8 40.67"/>
+					</clipPath>
+					</svg>
+				<!-- Buttons in the center-bl -->
+				</div>
+				<div class="buttons">
+					<a href="index.html#subscription" class="buy">Buy subscription</a>
+					<a href="index.html#about" class="about-btn">About gym</a>
+				</div>
+				<div class="mobile-shadow">
+					<div class="mobile-shadow-close">Close</div>
+				</div>
+			</div>
+			<!-- Right Block -->
+			<div class="right-bl">
+				<div class="busket-player">
+					<div class="busket">
+						<div class="num">2</div>
+						<div class="busket-ico"></div>
+					</div>
+					<div class="player-bl">
+						<div id="jquery_jplayer_1" class="cp-jplayer"></div>
+						<div class="audio-title" data-title="THE XX - ANGELS" data-block="Music">Music</div>
+						<div id="cp_container_1" class="cp-container">
+							<div class="cp-buffer-holder">
+								<div class="cp-buffer-1"></div>
+								<div class="cp-buffer-2"></div>
+							</div>
+							<div class="cp-progress-holder">
+								<div class="cp-progress-1"></div>
+								<div class="cp-progress-2"></div>
+							</div>
+							<div class="cp-circle-control"></div>
+							<ul class="cp-controls">
+								<li><a class="cp-play" tabindex="1"></a></li>
+								<li><a class="cp-pause" style="display:none;" tabindex="1"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="mobile-menu">
+					<div class="mobile-menu-title"><p>Menu</p><span></span></div>
+				</div>
+				<nav class="menu-links">
+					<div class="close-menu"></div>
+						<ul id="menu-main_nav" class="menu">
+							<li><span class="home-1">1</span><a href="index.html#header" class="active">Home<span class="circle"><span class="dot"></span></span></a></li>
+							<li><a href="index.html#subscription">Buy subscription<span class="circle"><span class="dot"></span></span></a></li>
+							<li class="active"><a href="index.html#about">About gym<span class="circle"><span class="dot"></span></span></a>
+								<ul class="sub-menu">
+									<li><a href="index.html#about">IN OUR GYM<span class="circle-mini"></span></a></li>
+									<li><a href="index.html#about">ABOUT US<span class="circle-mini"></span></a></li>
+									<li><a href="index.html#about">TRAINERS<span class="circle-mini"></span></a></li>
+								</ul>
+							</li>
+							<li><a href="index.html#reviews">Reviews / Programs <span class="circle"><span class="dot"></span></span></a></li>
+							<li><a href="index.html#photo">Photo / Store<span class="circle"><span class="dot"></span></span></a></li>
+						</ul>
+				</nav>
+				<div class="scroll-bar">Scrolling <span class="scroll-bar-ico"></span></div>
+				<div class="mobile-shadow-left">
+					<div class="mobile-shadow-closel">Close</div>
+				</div>
+			</div>
+		</div>
+	</header><!-- END HEADER -->
+
+	<!-- SUBSCRIPTION
+	============================================= -->
+
+	<section class="subscription" id="subscription">
+		<div class="wrapper">
+			<!-- Price Block -->
+			<div class="price-bl">
+				<div class="price-info">
+					<div class="price-columns">
+						<div class="morning-columns column">
+							<div class="tariff-img">
+								<img src="assets/images/morning.jpg" alt="morning" />
+							</div>
+							<div class="price-title">
+								<span>Morning</span>
+								<p>7:00 - 17:00</p>
+							</div>
+							<div class="price">Price / EUR</div>
+							<div class="tarif-bl">
+								<div class="tariff-price-1 tariff-price active">
+									<div class="tariff-desc-num">2</div>
+								</div>
+								<div class="tariff-price-3 tariff-price">
+									<div class="tariff-desc-num">4</div>
+								</div>
+								<div class="tariff-price-5 tariff-price">
+									<div class="tariff-desc-num">8</div>
+								</div>
+								<div class="tariff-price tariff-price last">
+									<div class="tariff-desc-num">20</div>
+								</div>
+							</div>
+						</div>
+						<div class="month-columns column">
+							<div class="price-title">
+								PRICE LIST
+								<p class="month-down-title">17.08.2016</p>
+							</div>
+							<div class="price">TRAINING / MO.</div>
+							<div class="month-bl">
+								<div class="month-num">1</div>
+								<div class="line-bl"></div>
+								<div class="month-num">8</div>
+								<div class="line-bl"></div>
+								<div class="month-num">12</div>
+								<div class="line-bl"></div>
+								<div class="month-num">∞</div>
+								<div class="line-bl"></div>
+							</div>
+						</div>
+						<div class="evening-columns column">
+							<div class="tariff-img">
+								<img src="assets/images/evening.jpg" alt="evening" />
+							</div>
+							<div class="price-title">
+								<span>Evening</span>
+								<p>7:00 - 22:00</p>
+							</div>
+							<div class="price">Price / EUR</div>
+							<div class="tarif-bl">
+								<div class="tariff-price-1 tariff-price">
+									<div class="tariff-desc-num">3</div>
+								</div>
+								<div class="tariff-price-3 tariff-price">
+									<div class="tariff-desc-num">5</div>
+								</div>
+								<div class="tariff-price-5 tariff-price">
+									<div class="tariff-desc-num">9</div>
+								</div>
+								<div class="tariff-price tariff-price last">
+									<div class="tariff-desc-num">30</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="price-footer">First visit to the gym - <span>FREE</span> of charge!</div>
+				</div>
+			</div>
+			<!-- Buy Block -->
+			<div class="buy-form-bl">
+				<h2 class="title">
+					Buy <br />subscription
+					<span class="title-description">MORNING / 1 MONTH</span>
+				</h2>
+				<div class="buy-form-image">
+					<img src="assets/images/guest.jpg" alt="" />
+				</div>
+				<form action="http://superset.dizmarket.net/contact.php" class="subscription-form" method="post">
+					<div class="subscription-form-div">
+						<input type="text" name="full-name" placeholder="FULL NAME" required="required">
+					</div>
+					<div class="subscription-form-div">
+						<input type="text" name="phone-number" placeholder="PHONE NUMBER" required="required">
+					</div>
+					<div class="subscription-form-div">
+						<input type="text" name="email" placeholder="E - MAIL" required="required">
+					</div>
+					<div class="rules-bl">
+						<span class="rules">
+							<input type="checkbox" name="rules">
+						</span>
+						<div>I agree with the <a href="#">rules</a>.</div>
+					</div>
+					<div>
+						<input  class="submit-buy" type="submit" value="BUY NOW" disabled="disabled">
+					</div>
+				</form>
+				<div class="buy-background-img">
+					<img src="assets/images/girl.png" alt="" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END SUBSCRIPTION -->
+
+	<!-- ABOUT
+	============================================= -->
+	<section class="about">
+		<div class="wrapper" id="about">
+			<div class="about-info">
+				<div class="our-simulator">
+					<div class="simulator-slider">
+						<div>
+							<div>
+								<div class="simulator-num">3</div>
+								<div class="simulator-text">ELLIPTICAL</div>
+								<div class="simulator-img">
+									<img src="assets/images/elliptical.jpg" alt=""/>
+								</div>
+							</div>
+							<div>
+								<div class="simulator-num">5</div>
+								<div class="simulator-text">BARBELL</div>
+								<div class="simulator-img">
+									<img src="assets/images/barbell.jpg" alt=""/>
+								</div>
+							</div>
+							<div>
+								<div class="simulator-num">1</div>
+								<div class="simulator-text">ROWING</div>
+								<div class="simulator-img">
+									<img src="assets/images/rowing.jpg" alt=""/>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div>
+								<div class="simulator-num">3</div>
+								<div class="simulator-text">Built-in weight</div>
+								<div class="simulator-img">
+									<img src="assets/images/built-in_weight.jpg" alt=""/>
+								</div>
+							</div>
+							<div>
+								<div class="simulator-num">5</div>
+								<div class="simulator-text">Exercise bike</div>
+								<div class="simulator-img">
+									<img src="assets/images/exercise_bike.jpg" alt=""/>
+								</div>
+							</div>
+							<div>
+								<div class="simulator-num">1</div>
+								<div class="simulator-text">Treadmill</div>
+								<div class="simulator-img">
+									<img src="assets/images/treadmill.jpg" alt=""/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="in-our-gym" id="in-our-gym">
+						<div class="in-our-title">
+						IN OUR <br /> GYM
+						</div>
+						<div class="in-our-img">
+							<img src="assets/images/weight.png" alt="" />
+						</div>
+					</div>
+				</div>
+				<div class="about-us" id="about-us">
+					<h2 class="about-title">About <br />us</h2>
+					<div class="short-story">Short story</div>
+					<div class="about-us-info">
+						<p>Cum sociis natoque penatibus et magnis dis parturient montes,
+						nascetur ridiculus mus. Donec quam felis, ultricies nec,
+						pellentesque eu, pretium quis, sem. Nulla consequat massa
+						quis enim.</p>
+
+						<p class="second-text">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+
+						<p class="grey-text">Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+						Cras dapibus. Vivamus elementum semper nisi.</p>
+
+						<div class="about-us-photo">
+							<div class="photo-bl">
+								<img src="assets/images/best_interior.jpg" alt="" />
+								<div class="photo-description">Best interior gym</div>
+							</div>
+							<div class="photo-bl">
+								<img src="assets/images/best_prices.jpg" alt="" />
+								<div class="photo-description">Best prices</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="trainer-info" id="trainers">
+				<div class="trainer-rating">
+					<div class="rating">
+						<div class="rating-title">
+							<span>1</span> Sara
+						</div>
+						<div class="progress">
+							<span class="progress-1"></span>
+							<span class="progress-11"></span>
+							<span class="progress-12"></span>
+						</div>
+					</div>
+					<div class="rating">
+						<div class="rating-title">
+							<span>2</span> Tifany
+						</div>
+						<div class="progress">
+							<span class="progress-2"></span>
+							<span class="progress-21"></span>
+							<span class="progress-22"></span>
+						</div>
+					</div>
+					<div class="rating">
+						<div class="rating-title">
+							<span>3</span> Kris
+						</div>
+						<div class="progress">
+							<span class="progress-3"></span>
+							<span class="progress-31"></span>
+							<span class="progress-32"></span>
+						</div>
+					</div>
+					<div class="rating-name">
+						Endurance<br />
+						Strong<br />
+						Speed<br />
+					</div>
+				</div>
+				<div class="exercise-trainers-title">
+					<span class="first-title">Trai</span>
+					<span class="second-title">ners</span>
+				</div>
+				<div class="exercise">
+					<div class="exercise-bl">
+						<div class="owl-exercise">
+							<div data-title="Swiss ball knee tuck">
+								<div class="item">
+									<img src="assets/images/swiss_ball_1.jpg" alt="swiss ball" width="268" height="95" />
+									<div class="exercise-title">1 - Take the emphasis lying</div>
+								</div>
+								<div class="item">
+									<img src="assets/images/swiss_ball_2.jpg" alt="swiss ball" width="268" height="95" />
+									<div class="exercise-title">2 - Bend your knees</div>
+								</div>
+							</div>
+							<div data-title="Crunch kicks">
+								<div class="item">
+									<img src="assets/images/crunch_kicks_1.jpg" alt="crunch kicks" width="268" height="95" />
+									<div class="exercise-title">3 - Take the emphasis lying</div>
+								</div>
+								<div class="item">
+									<img src="assets/images/crunch_kicks_2.jpg" alt="crunch kicks" width="268" height="95" />
+									<div class="exercise-title">4 - Bend your knees</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="exercise-footer">
+						<div class="counter"></div>
+						<div class="footer-title">Swiss ball knee tuck</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END ABOUT -->
+
+	<!-- REVIEWS
+	============================================= -->
+	<section class="reviews" id="reviews">
+		<div class="wrapper">
+		<div class="comment-symbol"></div>
+			<div class="comment-slider">
+				<div class="comment-item">
+					<div class="comment-bl">
+						<div class="comment-title">
+							<h2>Very good</h2>
+							<div class="comment-date">
+								08.09
+							</div>
+						</div>
+						<div class="comment">
+							<div>
+								Maecenas tempus, tellus eget condimentum rhoncus,
+								sem quam semper libero, sit amet adipiscing sem!
+							</div>
+						</div>
+					</div>
+					<div class="autor">
+						<div class="autor-bl">
+							<div class="item-autor">
+								<div class="autor-title">
+									<h2>Leonardo</h2>
+									<div class="strip"></div>
+									<div class="autor-info">
+										UKRAINE, IRPEN<br />
+										27 YEARS<br />
+										BODYBUILDER
+									</div>
+								</div>
+								<div class="autor-image">
+									<img src="assets/images/leonardo.png" alt="leonardo"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="comment-item">
+					<div class="comment-bl">
+						<div class="comment-title">
+							<h2>I like it</h2>
+							<div class="comment-date">
+								10.07
+							</div>
+						</div>
+						<div class="comment">
+							<div>
+								Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.
+							</div>
+						</div>
+					</div>
+					<div class="autor">
+						<div class="autor-bl">
+							<div class="item-autor">
+								<div class="autor-title">
+									<h2>Angela</h2>
+									<div class="strip"></div>
+									<div class="autor-info">
+										UKRAINE, KIEV<br />
+										24 YEARS<br />
+										FITNESS MODEL
+									</div>
+								</div>
+								<div class="autor-image">
+									<img src="assets/images/angela.png" alt="angela"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END REVIEWS -->
+
+	<!-- PROGRAMS
+	============================================= -->
+	<section class="programs">
+		<div class="wrapper">
+			<div class="programs-bl">
+				<div class="programs-slider">
+						<div class="img-background">
+							<div class="photo-img">
+								<div class="image-photo">
+									<img src="assets/images/fitness_mix.jpg" data-rotate="./assets/images/fitness_mix_rotated.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="photo-info-bl">
+							<div class="photo-f-bl">
+								<div class="photo-f"></div>
+							</div>
+							<div class="info-bl">
+								<h3 class="info-bl-title">
+								Fitness mix
+								</h3>
+								<div class="info-bl-info">
+									Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus.
+								</div>
+								<div class="info-bl-button">
+									<a href="#" class="buy">Read more</a>
+								</div>
+							</div>
+						</div>
+				</div>
+				<div class="programs-slider">
+						<div class="img-background">
+							<div class="photo-img">
+								<div class="image-photo">
+									<img src="assets/images/group_training.jpg" data-rotate="./assets/images/group_training_rotated.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="photo-info-bl">
+							<div class="photo-f-bl">
+								<div class="photo-f"></div>
+							</div>
+							<div class="info-bl">
+								<h3 class="info-bl-title">
+								Group training
+								</h3>
+								<div class="info-bl-info">
+									Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien.
+								</div>
+								<div class="info-bl-button">
+									<a href="#" class="buy">Read more</a>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END PROGRAMS -->
+
+	<!-- PHOTO GALLERY
+	============================================= -->
+	<section class="photo-gallery" id="photo">
+		<div class="wrapper">
+			<div class="description-block">
+				<h2 class="title">Photo</h2>
+				<div class="description-text">Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</div>
+				<a class="all-photo" href="#">All photos</a>
+			</div>
+			<div class="photo-slider-bl">
+				<div class="photo-item">
+					<a href="assets/images/large-images/full_1.jpg" data-lightbox="roadtrip"><img src="assets/images/short_1.jpg" alt="" /></a>
+				</div>
+				<div class="photo-item">
+					<a href="assets/images/large-images/full_2.jpg" data-lightbox="roadtrip"><img src="assets/images/short_2.jpg" alt="" /></a>
+					<div class="photo-item-info">
+						<div class="photo-item-title">
+							Barblles
+						</div>
+						<div class="photo-item-description">
+							Force
+						</div>
+					</div>
+				</div>
+				<div class="photo-item">
+					<a href="assets/images/large-images/full_3.jpg" data-lightbox="roadtrip"><img src="assets/images/short_3.jpg" alt="" /></a>
+				</div>
+				<div class="photo-item">
+					<a href="assets/images/large-images/full_4.jpg" data-lightbox="roadtrip"><img src="assets/images/short_4.jpg" alt="" /></a>
+					<div class="photo-item-info">
+						<div class="photo-item-title">
+							Treadmills
+						</div>
+						<div class="photo-item-description">
+							Cardio
+						</div>
+					</div>
+				</div>
+				<div class="photo-item">
+					<a href="assets/images/large-images/full_5.jpg" data-lightbox="roadtrip"><img src="assets/images/short_5.jpg" alt="" /></a>
+				</div>
+				<div class="photo-item">
+					<a href="assets/images/large-images/full_3.jpg" data-lightbox="roadtrip"><img src="assets/images/short_3.jpg" alt="" /></a>
+					<div class="photo-item-info">
+						<div class="photo-item-title">
+							Barblles
+						</div>
+						<div class="photo-item-description">
+							Force
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END PHOTO GALLERY -->
+
+	<!-- SHOP
+	============================================= -->
+	<section class="shop">
+		<div class="wrapper">
+			<div class="shop-bl">
+				<div class="shop-slider">
+					<div class="shop-item">
+						<div class="shop-item-info">
+							<h3 class="item-info-title">
+								Bottle for water
+							</h3>
+							<div class="item-info-description">
+								2 liters, Plastic, Black
+							</div>
+							<div class="item-img-price">
+								<div class="row">
+									<div class="item-info-img">
+										<img src="assets/images/bottle.png" alt="bottle" width="100" height="225" />
+									</div>
+									<div class="line"></div>
+									<div class="item-info-price">
+										<div class="price">20 $</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="shop-item-buy">
+							<div class="shop-buy-btn">Buy <span class="basket-ico"></span></div>
+						</div>
+					</div>
+					<div class="shop-item">
+						<div class="shop-item-info">
+							<h3 class="item-info-title">
+								Cocktail Shaker
+							</h3>
+							<div class="item-info-description">
+								0.5 Litres, Plastic, Grid, Black
+							</div>
+							<div class="item-img-price">
+								<div class="row">
+									<div class="item-info-img">
+										<img src="assets/images/shaker.png" alt=""/>
+									</div>
+									<div class="line"></div>
+									<div class="item-info-price">
+										<div class="price">30 $</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="shop-item-buy">
+							<div class="shop-buy-btn">Buy <span class="basket-ico"></span></div>
+						</div>
+					</div>
+					<div class="shop-item">
+						<div class="shop-item-info">
+							<h3 class="item-info-title">
+								Casein Protein
+							</h3>
+							<div class="item-info-description">
+								2 kg, shocolate
+							</div>
+							<div class="item-img-price">
+								<div class="row">
+									<div class="item-info-img">
+										<img src="assets/images/protein.png" alt=""/>
+									</div>
+									<div class="line"></div>
+									<div class="item-info-price">
+										<div class="price">80 $</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="shop-item-buy">
+							<div class="shop-buy-btn">Buy <span class="basket-ico"></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- END SHOP -->
+
+	<!-- FOOTER
+	============================================= -->
+	<footer>
+		<div class="wrapper">
+			<div class="footer-logo">
+				<img src="assets/images/logo_min.jpg" alt=""/>
+			</div>
+			<div class="copyright">
+				<div class="copyright-info">© <span>Superset /</span> 2016</div>
+				<div>Made without</div>
+				<div class="pictogram-footer"></div>
+			</div>
+		</div>
+	</footer>
+	<!-- END FOOTER -->
+
+	<!-- BASKET MODAL
+	============================================= -->
+
+	<section class="basket-modal-bg">
+		<div class="basket-modal-bl">
+			<div class="to-order-open">
+				
+			</div>
+			<div class="cart">
+				<h2>Cart</h2>
+				<div class="item-bl scrollbar-inner">
+					<div class="item">
+						<div class="item-info-bl">
+							<div class="item-info">
+								<div class="basket-item-title">Bottle for water</div>
+								<div class="basket-item-text">2 liters, Plastic, Black</div>
+							</div>
+						</div>
+						<div class="item-info-second">
+							<div class="item-current">
+								20 $
+							</div>
+							<div class="item-img">
+								<img src="assets/images/bottle.png" alt=""/>
+							</div>
+							<div class="current-info-bl">
+								<div class="item-num">
+									<div class="down">-</div>
+									<input type="text" class="num-spinner" name="number" value="1" pattern="[0-9]" disabled="">
+									<div class="up">+</div>
+								</div>
+							</div>
+					</div>
+					</div>
+					<div class="item">
+						<div class="item-info-bl">
+							<div class="item-info">
+								<div class="basket-item-title">Cocktail Shaker</div>
+								<div class="basket-item-text">0.5 Litres, Plastic, Grid, Black</div>
+							</div>
+						</div>
+						<div class="item-info-second">
+							<div class="item-current">
+								50 $
+							</div>
+							<div class="item-img">
+								<img src="assets/images/shaker.png" alt=""/>
+							</div>
+							<div class="current-info-bl">
+								<div class="item-num">
+									<div class="down">-</div>
+									<input type="text" class="num-spinner" name="number" value="1" pattern="[0-9]" disabled="">
+									<div class="up">+</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="total-bl">
+					<div class="basket-total-wrapper">
+						<div class="total">ORDER TOTAL</div>
+						<div class="total-current">70 $</div>
+					</div>
+				</div>
+			</div>
+			<div class="close-btn"><span></span></div>
+			<div class="to-order">
+				<h2>To order</h2>
+				<form action="http://superset.dizmarket.net/contact.php" class="subscription-form" method="post">
+					<div class="subscription-form-div">
+						<input type="text" name="full-name" placeholder="FULL NAME" required="required">
+					</div>
+					<div class="subscription-form-div">
+						<input type="text" name="phone-number" placeholder="PHONE NUMBER" required="required">
+					</div>
+					<div class="subscription-form-div">
+						<input type="text" name="email" placeholder="E - MAIL" required="required">
+					</div>
+					<div>
+						<input  class="submit-buy" type="submit" value="BUY NOW">
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!-- END BASKET MODAL -->
+
+		<!-- JQuery -->
+		<script src="assets/js/jquery-1.12.4.min.js"></script>
+		<!-- owl.carousel -->
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<!-- jquery.inview -->
+		<script src="assets/js/jquery.inview.min.js"></script>
+		<!-- slick -->
+		<script type="text/javascript" src="assets/js/slick.min.js"></script>
+		<!-- Progress animate -->
+		<script type="text/javascript" src="assets/js/circle-progress.min.js"></script>
+		<!-- Lightbox -->
+		<script type="text/javascript" src="assets/js/lightbox.min.js"></script>
+		<!-- JsPlayer -->
+		<script type="text/javascript" src="assets/js/jquery.jplayer.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.transform2d.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.grab.js"></script>
+		<script type="text/javascript" src="assets/js/mod.csstransforms.min.js"></script>
+		<script type="text/javascript" src="assets/js/circle.player.js"></script>
+		<!-- Scrollbar -->
+		<script type="text/javascript" src="assets/js/jquery.scrollbar.min.js"></script>
+		<!-- Disable scroll -->
+		<script type="text/javascript" src="assets/js/jquery.disablescroll.min.js"></script>
+		<!-- My scripts -->
+		<script src="assets/js/script.js"></script>
+
+</body>
+
+<!-- Mirrored from superset.dizmarket.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Apr 2017 13:37:49 GMT -->
+</html>

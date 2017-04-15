@@ -1,0 +1,1122 @@
+/*
+   ------------------------------------------------------
+					Responsive Styles
+   ------------------------------------------------------
+*/
+
+
+/*------------------------------------------*/
+/*	  Subscription Section
+/*------------------------------------------*/
+
+@media screen and (min-width: 1921px) {
+	section.subscription:before {
+		display: none;
+	}
+}
+
+/*------------------------------------------*/
+/*	  About Section
+/*------------------------------------------*/
+@media screen and (max-width: 1850px) {
+	section.about .trainer-info .exercise-trainers-title {
+		font-size: 110px;
+	}
+
+	section.about .trainer-info .exercise-trainers-title .first-title {
+		top: -20px;
+	}
+
+	section.about .trainer-info .exercise-trainers-title .second-title {
+		top: -20px;
+		left: 253px;
+	}
+}
+
+@media screen and (max-width: 1640px) {
+	section.about .about-info .our-simulator .in-our-title,
+	section.about .trainer-info .exercise-trainers-title {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1600px) {
+	section.about .trainer-info .exercise-trainers-title {
+		font-size: 80px;
+	}
+
+	section.about .trainer-info .exercise-trainers-title .first-title {
+		top: -40px;
+	}
+
+	section.about .trainer-info .exercise-trainers-title .second-title {
+		top: -40px;
+		left: 184px;
+	}
+}
+
+
+/*------------------------------------------*/
+/*	  Mobile Menu
+/*------------------------------------------*/
+@media screen and (max-width: 1314px) {
+	header .menu-links a.active .circle:before, header .menu-links a.active .circle:after {
+		-webkit-animation: none;
+    	animation: none;
+	}
+
+/*------------------------------------------*/
+/*	 Header Right Column
+/*------------------------------------------*/
+
+	header .right-bl {
+		overflow: hidden;
+	}
+}
+
+/*------------------------------------------*/
+/*	  About Section
+/*------------------------------------------*/
+@media screen and (max-width: 1300px) {
+	section.about .trainer-info .exercise-trainers-title {
+		font-size: 75px;
+	}
+
+	section.about .trainer-info .exercise-trainers-title .first-title {
+		top: -40px;
+	}
+
+	section.about .trainer-info .exercise-trainers-title .second-title {
+		top: -40px;
+		left: 177px;
+	}
+}
+
+/*------------------------------------------*/
+/*	  Programs Section
+/*------------------------------------------*/
+@media screen and (max-width: 1212px) {
+	section.programs .owl-carousel .owl-stage-outer {
+		width: 1200px;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+
+@media screen and (max-width: 1200px) {
+	body {
+		min-width: 100%;
+	}
+
+/*------------------------------------------*/
+/*	 Header Right and Left Column
+/*------------------------------------------*/
+	header .wrapper .left-bl,
+	header .wrapper .right-bl {
+		position: relative;
+	}
+
+/*------------------------------------------*/
+/*	 Header Schedule
+/*------------------------------------------*/
+	header .schedule-time {
+		position: fixed;
+		height: 101%;
+		padding: 50px 20px 0 20px;
+		top: 0;
+		left: -100%;
+		z-index: 100;
+		visibility: hidden;
+		background: #000;
+		-webkit-transition: all 1s ease-out;
+	    -moz-transition: all 1s ease-out;
+	    transition: all 1s ease-out;
+	}
+
+/*------------------------------------------*/
+/*	 Header News
+/*------------------------------------------*/
+	header .news {
+		width: 50%;
+		height: 101%;
+		padding: 50px 20px 0 20px;
+		position: fixed;
+		top: 0;
+		left: -100%;
+		z-index: 100;
+		margin: 0;
+		background: #000;
+		visibility: hidden;
+		-webkit-transition: all 1s ease-out, width 5s ease-out 5s;
+	    -moz-transition: all 1s ease-out, width 5s ease-out 5s;
+	    transition: all 1s ease-out, width 5s ease-out 5s;
+	}
+
+/*------------------------------------------*/
+/*	 Header Schedule
+/*------------------------------------------*/
+	header .schedule-news-btn {
+	    display: inline-block;
+		margin: 0 0 0 18px;
+	}
+
+/*------------------------------------------*/
+/*	 Header Menu
+/*------------------------------------------*/
+	header .menu-links {
+		position: fixed;
+		right: -360px;
+		height: 101%;
+		background: #000;
+		top: 0;
+		z-index: 100;
+		visibility: hidden;
+		padding: 50px 0 0 20px;
+		-webkit-transition: all 1s ease-out;
+	    -moz-transition: all 1s ease-out;
+	    transition: all 1s ease-out;
+	}
+
+/*------------------------------------------*/
+/*	 Shop Section
+/*------------------------------------------*/
+	section.shop .shop-bl .shop-item {
+		width: 300px;
+		margin: 0 auto;
+	}
+
+/*------------------------------------------*/
+/*	 Header Right Column
+/*------------------------------------------*/
+	header .right-bl .scroll-bar {
+		display: none;
+	}
+
+	header .right-bl .busket {
+		margin: 0px 0 25px 0;
+	}
+
+	header .right-bl {
+		padding: 7px 20px 0 0;
+		white-space: nowrap;
+	}
+
+	header .right-bl .busket-player {
+		margin: 0px 0 34px 0;
+	}
+
+/*------------------------------------------*/
+/*	 Header Mobile Menu
+/*------------------------------------------*/
+	header .mobile-menu .mobile-menu-title {
+		display: block;
+		margin: 0 18px 0 0;
+	}
+
+/*------------------------------------------*/
+/*	 General & Basic Styles
+/*------------------------------------------*/
+	.wrapper {
+		max-width: 100%;
+	}
+
+/*------------------------------------------*/
+/*	  Subscription Section
+/*------------------------------------------*/
+	section.subscription .wrapper > div {
+		display: block;
+		margin: 0 auto;
+	}
+
+	section.subscription:before {
+		display: none;
+	}
+
+	section.subscription .buy-form-bl {
+		float: none;
+	}
+
+/*------------------------------------------*/
+/*	 About Section
+/*------------------------------------------*/
+	section.about .in-our-gym {
+		display: none;
+	}
+
+	section.about .about-info > div {
+		float: none;
+	}
+
+	section.about .about-info {
+		width: 100%;
+    	display: block;
+		padding-top: 0;
+	}
+
+	section.about .about-info .our-simulator,
+	section.about .about-info .about-us {
+		height: auto;
+		margin: 50px auto 0 auto;
+	}
+
+	section.about:before,
+	section.about:after {
+		display: none;
+	}
+
+	section.about .trainer-info:after {
+		z-index: 2;
+	    background: rgba(0, 0, 0, .8);
+	    content: "";
+	    position: absolute;
+	    bottom: 0;
+	    width: 100%;
+	    height: 700px;
+	}
+
+	section.about .trainer-info .trainer-rating {
+		position: relative;
+		z-index: 3;
+		text-align: center;
+	}
+
+	section.about .trainer-info .exercise {
+		z-index: 3;
+		bottom: inherit;
+    	top: 50px;
+		left: 50%;
+		margin: 0 0 0 -187.5px;
+	}
+
+	section.about .trainer-info {
+		width: 100%;
+		height: 700px;
+	    background: url(../images/trainers.jpg) no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+	    background-size: cover;
+		margin: 50px 0 0 0;
+	}
+
+/*------------------------------------------*/
+/*	  Reviews Section
+/*------------------------------------------*/
+
+	section.reviews .comment-slider .comment-title {
+		text-align: center;
+	}
+
+	section.reviews .comment-bl .comment > div {
+		margin: 0 auto;
+	}
+
+	section.reviews .comment-slider .comment-item .autor {
+		float: none;
+		display: block;
+	}
+
+	section.reviews .autor-bl {
+		background: url(../images/comment-border-bg.png)no-repeat center 13px;
+	}
+
+	section.reviews .autor-bl .item-autor {
+		margin: 0 auto;
+	}
+
+	section.reviews .owl-stage-outer {
+		width: 100%;
+	}
+
+	section.reviews .comment-bl {
+		padding: 50px 0 0 20px;
+		width: 100%;
+	}
+
+	section.reviews .comment-symbol {
+	    width: 262px;
+	    height: 220px;
+	    background: url(../images/comment-symbol-mobile.png);
+	    position: absolute;
+	    left: 50%;
+	    margin-left: -260px;
+	    top: 120px;
+	    z-index: 1;
+	}
+
+	section.reviews .comment-slider .owl-controls {
+		width: 100%;
+		height: auto;
+		position: absolute;
+		bottom: 0;
+	}
+
+	section.reviews .comment-slider .owl-controls .owl-dots {
+	    left: 50%;
+		margin-left: -250px;
+	}
+
+/*------------------------------------------*/
+/*	  Programs Section And Shop Section
+/*------------------------------------------*/
+	section.programs .programs-bl,
+	section.programs .owl-carousel .owl-stage-outer,
+	section.shop .shop-bl {
+		width: 100%;
+	}
+
+	section.shop .shop-bl .owl-nav {
+		display: none;
+	}
+
+	section.programs .programs-bl .photo-f-bl {
+		display: none;
+	}
+
+	section.programs .programs-bl .photo-img {
+		width: 400px;
+	}
+
+	section.programs .owl-carousel .owl-item img {
+		max-width: none;
+		width: auto;
+		position: absolute;
+		left: 50%;
+		margin-left: -275px;
+	}
+
+	section.programs .programs-bl .photo-img .image-photo {
+		position: relative;
+	}
+
+	section.programs .programs-bl .img-background {
+		margin: 0 0 0 20px;
+	}
+
+	section.programs .programs-bl .photo-info-bl {
+		width: 100%;
+		display: block;
+		position: absolute;
+		top: 0;
+	}
+
+	section.programs .programs-bl .info-bl {
+		padding: 0px 35px 0 0;
+	}
+
+/*------------------------------------------*/
+/*	  Photo Gallery Section
+/*------------------------------------------*/
+	section.photo-gallery .photo-slider-bl {
+		width: 600px;
+	}
+
+	section.photo-gallery .description-block {
+		margin-left: 20px;
+	}
+
+	section.photo-gallery:before {
+		width: 100%;
+	}
+
+	section.photo-gallery .photo-slider-bl .owl-controls .owl-nav {
+		display: none;
+	}
+
+/*------------------------------------------*/
+/*	  Header Shedule, News, Mobile Menu
+/*------------------------------------------*/
+	header .schedule-text, header .news-title {
+		margin: 0;
+	}
+
+	body.shedule-menu-open .schedule-time,
+	body.news-menu-open .news,
+	body.mobile-menu-open .menu-links {
+		overflow: auto;
+	}
+}
+
+@media screen and (max-width: 1070px) {
+
+/*------------------------------------------*/
+/*	  Basket Modal
+/*------------------------------------------*/
+	section.basket-modal-bg .basket-modal-bl {
+		width: auto;
+		margin: -250px 0 0 -300px;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .to-order-open {
+		display: block;
+		background: url('../images/arrow-right.png');
+		width: 24px;
+		height: 24px;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .to-order {
+		width: 100%;
+		position: absolute;
+		right: -400px;
+		z-index: 1000;
+		visibility: hidden;
+		opacity: 0;
+		-webkit-transition: all 0.5s ease-out;
+	    -moz-transition: all 0.5s ease-out;
+	    transition: all 0.5s ease-out;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .to-order.open {
+		visibility: visible;
+		opacity: 1;
+		right: 0;
+		-webkit-transition: all 0.5s ease-out;
+	    -moz-transition: all 0.5s ease-out;
+	    transition: all 0.5s ease-out;
+	}
+}
+
+/*------------------------------------------*/
+/*	  Center Column
+/*------------------------------------------*/
+@media screen and (max-width: 1038px) {
+	header .buttons a:last-child {
+	    margin-left: 15px;
+	}
+
+	header {
+		padding: 50px 0;
+	}
+
+
+/*------------------------------------------*/
+/*	  Right Column
+/*------------------------------------------*/
+	header .right-bl .busket .num {
+		height: auto;
+		line-height: normal;
+	}
+
+/*------------------------------------------*/
+/*	  Left Column
+/*------------------------------------------*/
+	header .schedule-news-btn > div:first-child {
+		margin-top: 10px;
+	}
+}
+
+/*------------------------------------------*/
+/*	  Photo Gallery Section
+/*------------------------------------------*/
+
+@media screen and (max-width: 800px) {
+	section.photo-gallery .description-block {
+		margin: 50px auto 0 auto;
+		display: block;
+		text-align: center;
+	}
+
+	section.photo-gallery .description-block .description-text {
+		padding: 0;
+	}
+
+	section.photo-gallery .description-block .title {
+		margin-top: 0;
+	}
+
+	section.photo-gallery:before {
+		width: 100%;
+		height: 100%;
+		opacity: 0.8;
+	}
+
+section.photo-gallery .photo-slider-bl {
+		right: 50%;
+		bottom: 0;
+		margin-right: -300px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	section.photo-gallery .owl-carousel .owl-stage-outer {
+		right: -80px;
+	}
+
+/*------------------------------------------*/
+/*	  Subscription Section
+/*------------------------------------------*/
+	section.subscription .buy-form-bl {
+		padding: 50px 20px;
+	}
+
+/*------------------------------------------*/
+/*	  Photo Gallery Section
+/*------------------------------------------*/
+	section.photo-gallery .owl-carousel .owl-stage-outer {
+		right: 0;
+	}
+}
+
+@media screen and (max-width: 736px) {
+
+/*------------------------------------------*/
+/*	  Center Column
+/*------------------------------------------*/
+
+	header .center-bl {
+		min-width: auto;
+	}
+
+	header .buttons .buy {
+		width: 68px;
+		overflow: hidden;
+	}
+
+	header #map-canvas {
+		-webkit-clip-path: none !important;
+	    -moz-clip-path: none !important;
+	    -ms-clip-path: none !important;
+	    clip-path: none !important;
+		max-width: none;
+		width: 210px;
+		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+	}
+
+	header #map-canvas .gm-style > div:nth-child(2) {
+	    left: 70px !important;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	section.photo-gallery .owl-carousel .owl-item {
+		width: 100px!important;
+	}
+
+	section.photo-gallery .photo-slider-bl .photo-item {
+		width: 100px;
+	    height: auto;
+	}
+
+	section.photo-gallery .photo-slider-bl {
+		width: 300px;
+		position: relative;
+    	right: 0;
+		bottom: -55px;
+		margin: 0 auto;
+	}
+
+	section.photo-gallery,
+	section.photo-gallery .wrapper {
+		height: auto;
+	}
+
+/*------------------------------------------*/
+/*	  Subscription Section
+/*------------------------------------------*/
+	section.subscription .wrapper > div {
+		height: auto;
+	}
+
+/*------------------------------------------*/
+/*	  About Section
+/*------------------------------------------*/
+	section.about {
+		padding: 0;
+	}
+
+	section.about .about-info {
+		padding: 0;
+	}
+/*------------------------------------------*/
+/*	  Programs Section
+/*------------------------------------------*/
+	section.programs .programs-bl .photo-img {
+		width: 300px;
+	}
+}
+
+/*------------------------------------------*/
+/*	  Hidden Element
+/*------------------------------------------*/
+@media screen and (max-width: 660px) {
+	header .schedule-news-btn p,
+	header .right-bl .busket-player .audio-title,
+	header .mobile-menu .mobile-menu-title p,
+	section.subscription .buy-form-bl .buy-background-img,
+	header .right-bl .busket .num {
+		display: none;
+	}
+
+/*------------------------------------------*/
+/*	  Right Column
+/*------------------------------------------*/
+	header .right-bl {
+	    padding: 7px 0 0 0;
+	}
+
+/*------------------------------------------*/
+/*	  Basket Modal
+/*------------------------------------------*/
+	section.basket-modal-bg .basket-modal-bl {
+		width: 100%;
+	    margin: -250px 0 0 0;
+		left: 0;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .cart {
+		width: 100%;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .close-btn {
+		background: url('../images/close-basket-black.png') no-repeat center center;
+		width: 18px;
+		height: 20px;
+		right: inherit;
+		left: 50px;
+		top: 50px;
+		z-index: 1010;
+		-webkit-transition: all 0.1s ease-out;
+		-moz-transition: all 0.1s ease-out;
+		transition: all 0.1s ease-out;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .to-order-open.open ~ .close-btn {
+		background: url('../images/close-w.png') no-repeat center center;
+		-webkit-transition: all 0.5s ease-out;
+		-moz-transition: all 0.5s ease-out;
+		transition: all 0.5s ease-out;
+	}
+}
+
+/*------------------------------------------*/
+/*	  Reviews Section
+/*------------------------------------------*/
+@media screen and (max-width: 600px) {
+	section.reviews .autor-bl {
+		background: url(../images/comment-border-bg.png)no-repeat 0 13px;
+	}
+
+	section.reviews .comment-slider .owl-controls .owl-dots {
+		left: 50px;
+		margin: 0;
+	}
+}
+
+/*------------------------------------------*/
+/*	  Subscription Section
+/*------------------------------------------*/
+@media screen and (max-width: 580px) {
+	section.subscription .wrapper > div {
+		width: inherit;
+	}
+
+	section.subscription .price-info .price-columns .tarif-bl {
+		min-width: 110px;
+	}
+
+/*------------------------------------------*/
+/*	  Open And Close Menu
+/*------------------------------------------*/
+	body.shedule-menu-open .schedule-time,
+	body.news-menu-open .news,
+	body.mobile-menu-open .menu-links {
+		width: 100%;
+	}
+
+	body.shedule-menu-open .mobile-shadow,
+	body.news-menu-open .mobile-shadow,
+	body.mobile-menu-open .mobile-shadow-left {
+		display: none!important;
+	}
+
+	header .close-menu {
+		display: block;
+	}
+
+/*------------------------------------------*/
+/*	  Basket Modal
+/*------------------------------------------*/
+	section.basket-modal-bg .basket-modal-bl .cart .item-bl .item .item-info-bl {
+		width: 100%;
+		text-align: center;
+	    margin: 25px 0 50px 0;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .cart .item-bl .item .item-info-second {
+		width: 300px;
+		height: 100%;
+		margin: 0 auto;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .cart .item-bl .item .item-img {
+		max-width: 100px;
+		margin: 0 auto;
+		float: none!important;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .cart .item-bl  .current-info-bl {
+		float: left!important;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .cart .item-bl .item {
+		height: 360px;
+	}
+
+	section.programs .programs-bl .info-bl-title {
+		text-overflow: ellipsis;
+	    width: 200px;
+	    white-space: nowrap;
+	    text-align: right;
+	    display: inline-block;
+	    vertical-align: top;
+	}
+}
+
+
+/*------------------------------------------*/
+/*	  Reviews Section
+/*------------------------------------------*/
+@media screen and (max-width: 534px) {
+	section.reviews .autor-bl .item-autor .autor-image {
+		top: 0;
+	}
+
+/*------------------------------------------*/
+/*	  Programs Section
+/*------------------------------------------*/
+
+	section.programs .programs-bl .info-bl-title {
+		width: inherit;
+		text-align: center;
+	}
+
+	section.programs .programs-bl .img-background {
+		margin: 0;
+	}
+
+	section.programs .programs-bl .programs-slider {
+		text-align: center;
+	}
+
+	section.programs .programs-bl .photo-info-bl {
+		position: relative;
+		margin: 0;
+		top: -25px;
+		height: auto;
+	}
+
+	section.programs .programs-bl:before {
+		left: 0;
+		margin: 0;
+		height: 600px;
+	}
+
+	section.programs .programs-bl .info-bl {
+		text-align: center;
+		padding: 0;
+		width: 100%;
+	}
+
+	section.programs .programs-bl .owl-controls .owl-nav {
+		top: inherit;
+		bottom: -70px;
+		left: 50%;
+    	margin-left: -44px;
+	}
+}
+
+@media screen and (max-width: 517px) {
+
+/*------------------------------------------*/
+/*	  Reviews Section
+/*------------------------------------------*/
+	section.reviews .comment-slider .owl-controls .owl-dots {
+		top: 115px;
+	}
+
+	section.reviews .autor-bl .item-autor .autor-image {
+		float: right;
+		position: relative;
+	}
+
+	section.reviews .comment-slider .comment-item .autor {
+		float: none;
+		width: 100%;
+	}
+
+	section.reviews .autor-bl .item-autor {
+		width: 100%;
+		height: 350px;
+	}
+
+	section.reviews .autor-bl {
+		padding: 0;
+	}
+
+	section.reviews .comment-slider .owl-controls {
+		width: 100%;
+	}
+
+	section.reviews .comment-slider .owl-controls {
+		bottom: 385px;
+	}
+
+/*------------------------------------------*/
+/*	  Right Column
+/*------------------------------------------*/
+	header .right-bl .busket .num {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	section.photo-gallery .photo-slider-bl {
+	    margin: 0 auto;
+	    position: relative;
+	}
+}
+
+@media screen and (max-width: 414px) {
+
+/*------------------------------------------*/
+/*	  Subscription Section
+/*------------------------------------------*/
+	section.subscription .price-info .price-columns > div {
+		width: auto;
+	}
+
+	section.subscription .price-info .price-columns .month-columns {
+		width: 110px;
+	}
+
+	section.subscription .month-columns .price-title {
+		padding: 0;
+		width: auto;
+	}
+
+/*------------------------------------------*/
+/*	  About Section
+/*------------------------------------------*/
+	section.about .trainer-info .exercise {
+		top: 90px;
+	}
+
+	section.about .about-info > div {
+		width: auto;
+	}
+
+	section.about .trainer-info .exercise {
+		left: 50%;
+		margin-left: -150px;
+	}
+
+	section.about .trainer-info .exercise-bl {
+	    padding: 77px 30px 10px 30px;
+	}
+
+	section.about .trainer-info .exercise {
+		width: 300px;
+	}
+
+	section.about .trainer-info .exercise .owl-theme .owl-controls {
+		right: -30px;
+	}
+
+	section.about .trainer-info .trainer-rating .rating-name {
+		display: none;
+	}
+
+	section.about .about-info .our-simulator .simulator-slider .slick-slide > div {
+		display: block;
+		margin: 0 auto;
+	}
+
+	section.about .about-info .our-simulator .simulator-slider .slick-slide > div:nth-child(even) {
+		margin: 70px auto!important;
+	}
+
+	section.about .about-info .our-simulator .simulator-slider .slick-slide {
+		height: auto!important;
+		margin: 60px auto 50px auto!important;
+	}
+
+	section.about .about-info .our-simulator .simulator-slider .slick-list {
+		height: 720px!important;
+	}
+
+	section.about .about-info,
+	section.about {
+		padding: 0;
+	}
+
+	section.about .about-info .our-simulator .simulator-slider .slick-next {
+		right: 50%;
+		margin-right: -16px;
+		bottom: -50px;
+	}
+
+	section.about .about-info .our-simulator .simulator-slider .slick-prev {
+		right: 50%;
+		margin-right: -16px;
+		top: 15px;
+	}
+
+	section.about .about-info .about-us {
+		margin: 100px auto 0 auto;
+	}
+
+	section.about .trainer-info .exercise .exercise-footer .footer-title {
+		width: 150px;
+		height: 50px;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+/*------------------------------------------*/
+/*	  Reviews Section
+/*------------------------------------------*/
+
+	section.reviews .comment-bl .comment > div {
+		width: auto;
+	}
+
+	section.reviews .comment-symbol {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 390px) {
+/*------------------------------------------*/
+/*	  Header
+/*------------------------------------------*/
+	header .schedule-news-btn .shedule-btn span,
+	header .schedule-news-btn .news-btn span {
+		margin: 0;
+	}
+
+	header .schedule-news-btn {
+		width: 35px;
+	}
+
+	header .wrapper .left-bl, header .wrapper .right-bl {
+		width: 50px;
+	}
+
+	header .logo {
+		width: 150px;
+	}
+
+	header .location {
+		margin: 0;
+	}
+
+	header .mobile-menu .mobile-menu-title span {
+		margin: 0;
+	}
+
+	header .mobile-menu {
+		float: right;
+	}
+
+/*------------------------------------------*/
+/*	  Basket Modal
+/*------------------------------------------*/
+	section.basket-modal-bg .basket-modal-bl .cart .item-bl .item .item-info-second {
+		width: auto;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .cart .item-bl .item .item-img {
+		max-width: 50px;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .cart .item-bl .item .item-info-second > div {
+		line-height: normal;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .cart .item-bl .item .item-num {
+	    line-height: normal;
+	}
+
+	section.basket-modal-bg .basket-modal-bl .cart .item-bl .item {
+		height: 270px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+
+/*------------------------------------------*/
+/*	  About Section
+/*------------------------------------------*/
+	section.about .trainer-info .trainer-rating .rating {
+		margin-right: 15px;
+	}
+
+/*------------------------------------------*/
+/*	  Header
+/*------------------------------------------*/
+	header .schedule-news-btn {
+		margin: 0 0 0 10px;
+	}
+
+	section.reviews .comment-bl .comment {
+		height: 250px;
+		min-height: 250px;
+		overflow: hidden;
+	}
+}
+
+@media screen and (max-width: 350px) {
+
+/*------------------------------------------*/
+/*	  Basket Modal
+/*------------------------------------------*/
+	section.basket-modal-bg .basket-modal-bl .cart .item-current {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 335px) {
+
+/*------------------------------------------*/
+/*	  Subscription Section
+/*------------------------------------------*/
+	section.subscription .price-info .price-columns .month-columns {
+	    width: 75px;
+	}
+
+/*------------------------------------------*/
+/*	  Header
+/*------------------------------------------*/
+	header .buttons a:last-child {
+		margin-left: 9px;
+	}
+
+	header .news .news-text a {
+		width: 190px;
+	    height: 19px;
+	    white-space: nowrap;
+	    display: inline-block;
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+	}
+
+/*------------------------------------------*/
+/*	  Shop Section
+/*------------------------------------------*/
+	 section.shop .shop-bl .owl-item {
+		padding: 25px 0 50px 0;
+	}
+}
+
+@media screen and (max-height: 501px) {
+
+/*------------------------------------------*/
+/*	  Basket Modal
+/*------------------------------------------*/
+	section.basket-modal-bg .basket-modal-bl {
+		top: 0;
+		margin-top: 0;
+	}
+}

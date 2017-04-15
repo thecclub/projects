@@ -1,0 +1,136 @@
+/*
+ * Project: CirclePlayer
+ * http://www.jplayer.org
+ *
+ * Copyright (c) 2012 Happyworm Ltd
+ *
+ * Author: Silvia Benvenuti
+ * Edited by: Mark J Panaghiston
+ * Date: 2nd October 2012
+ * Artwork inspired by: http://forrst.com/posts/Untitled-CJz
+ */
+
+.cp-container {
+	position:relative;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	float: right;
+	margin: 0 10px 0 0;
+}
+
+.cp-container .cp-controls {
+	border: 2px solid #f8c62e;
+	-webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+.cp-container .cp-controls:hover {
+	border: 1px solid #f8c62e;
+	-webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+.cp-container.jp-state-playing .cp-controls {
+	border: 1px solid #767676;
+	-webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+.cp-container :focus {
+	border:none;
+	outline:0;
+}
+
+.cp-buffer-1,
+.cp-buffer-2,
+.cp-progress-1,
+.cp-progress-2 {
+	position:absolute;
+	top:0;
+	left:0;
+	width:104px;
+	height:104px;
+	clip:rect(0px,52px,104px,0px);
+
+	-moz-border-radius:52px;
+	-webkit-border-radius:52px;
+	border-radius:52px;
+}
+
+/* FALLBACK for .progress
+ * (24 steps starting from 1hr filled progress, Decrease second value by 104px for next step)
+ * (It needs the container selector to work. Or use div)
+ */
+
+.cp-buffer-holder,
+.cp-progress-holder,
+.cp-circle-control {
+	position:absolute;
+}
+
+.cp-circle-control {
+	cursor:pointer;
+}
+
+.cp-buffer-holder,
+.cp-progress-holder {
+	clip:rect(0px,104px,104px,52px);
+	display:none;
+}
+
+
+/* This is needed when progress is greater than 50% or for fallback */
+
+.cp-buffer-holder.cp-gt50,
+.cp-progress-holder.cp-gt50,
+.cp-progress-1.cp-fallback{
+	clip:rect(auto, auto, auto, auto);
+}
+
+.cp-controls {
+	margin:0;
+	width: 36px;
+	height: 36px;
+    display: inline-block;
+	border: 2px solid #f8c62e;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	position: relative;
+}
+
+.cp-controls li{
+	list-style-type:none;
+	display:block;
+	text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 36px;
+    position: absolute;
+}
+
+.cp-controls li a{
+	position:relative;
+	display: inline-block;
+	width:100%;
+	height:100%;
+	text-indent:-9999px;
+	z-index:1;
+	cursor:pointer;
+}
+
+.cp-controls .cp-play {
+	background:url("../images/play.png") no-repeat center center;
+}
+
+.cp-controls .cp-pause {
+	background:url("../images/pause-bg.png") no-repeat center center;
+}
+
+.cp-jplayer {
+	width: inherit!important;
+	height: 25px!important;
+	display: inline-block;
+}
