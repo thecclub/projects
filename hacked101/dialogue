@@ -1,170 +1,39 @@
-student
-Hi sir I am here for the project
-
 mentor
-Hi <student_name> thanks for showing up the interest
-
-Have you ever heard about the word “Hacking” ?
+we are in a bit of emmergency famous bodybuilder kris gethin's gym website has been hacked we tried fixing it but it didn't happened we need you to fix it
 
 student
-yes, I have sir
+ya i am up for it.
 
 mentor
-Do you know exactly how people do it or how to fix “if Hacked” ?
+Our first task here is to get the IP address of the website try using ping see if your IP is matching with this, congrats you crossed first barrier.
+
+mentor
+Now we will try to access that system & see what's wrong using yours try using URL
 
 student
-No sir
+It asks for password
 
 mentor
-Okay that’s not a problem lets get started with a super simple project to make you understand ‘Hacking’.
+Let's just try to crack it down try admin(not working) try with cclub(not working), ohh shit it's the last try try it with hacked(worked) I think we are close enough now. Do you this process of accessing remote system is called remote login.
 
 student
-yes sir, this project looks very interesting (edited)
+got it i am inside the server
 
 mentor
-Let’s consider a senario you are a fitness Model, and Influencer, have 100,000+ subscribers on your website getting access to the paid content.
-
-student
-ok sir
+let's check the code i remember last time it was in website. let's figure out which directory is this try pwd and ls to list out directories here, share screenshot so that i have a better picture.
 
 mentor
-One Day you woke up & got to check your email. You have recieved a lot of mails that your subscribers aren’t able to access your website content.
+Now code check krte hain lets see if sara bawal yahin toh nahin. try going to directory and do ls to find files inside project.
 
 mentor
-You got to check the Website and it shows a Deface content that “it’s Hacked”
-
-student
-which website sir
+Ohh here it is index.html ka content check krte hain sahi hai yaa nahin yahi serve ho raha hai website pe. cat index.html kr k dekh kuch hacked content dikha raha hai shayad.
 
 mentor
-its projects.cclub.io:3000
-
-student
-got it sir
-It shows some hacked message
-What should I do now
+iska content sahi krna padega lets checkup backup files hain kya, Thank God we have a backup folder here try doing `ls backup` we have backup index.html here lets move it to main directory.
+mv backup/index.html .
 
 mentor
-Give me your inputs how do you think you’r gonna fixit?
-
-student
-I don’t know sir
+I think now everything will okay let's check website again. Ohh you saved it it's working fine now, We think you are a superhero we will get in touch with you when we have a problem.
 
 mentor
-Okay no problem we together gonna look how to fix it.
-can you find ip address of a domain say for instance “projects.cclub.io”
-
-student
-sir ping kr ke mil jayega ip to
-
-but sir college mein to ping nhi chlta
-
-mentor
-In case if you find it using ping it’s fine otherwise just google to find ip address using domain name “projects.cclub.io”
-
-student
-sorry sir could not find cclub.io
-
-mentor
-try using `nslookup` in case you don’t know go to http://www.tutorialspoint.com/unix_commands/nslookup.htm
-tutorialspoint.com
-nslookup - Unix, Linux Command
-nslookup - Unix, Linux Command Manual Pages (Manpages) , Learning fundamentals of UNIX and Linux in simple and easy steps : A beginner's tutorial containing complete knowledge of Unix Korn and Bourne Shell and Programming, Utilities, File System, Directories, Memory Management, Special Variables, vi editor, Processes
-
-student
-http://www.thegeekstuff.com/2012/07/nslookup-examples/?utm_source=tuicool
-thegeekstuff.com
-10 Linux nslookup Command Examples for DNS Lookup
-nslookup is a network administration tool for querying the Domain Name System (DNS) to obtain domain name or IP address mapping or any other specific DNS
-
-ok sir got the ip address
-
-mentor
-Do you know username and password the machine ?
-
-student
-no sir
-
-mentor
-We will use this for current session `username` and `password`
-
-student
-ok sir, but how do I login
-
-what do I do with this username and password
-
-mentor
-you can login into the machine through `ssh` just by providing your `username` & `password`
-
-student
-what’s ssh
-
-I am not able to understand anything
-
-mentor
-you can go through this to have a basic understanding about it, by the way it’s used for `remote login`.
-
-https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-in-ubuntu
-DigitalOcean
-How To Use SSH to Connect to a Remote Server in Ubuntu | DigitalOcean
-SSH is an important tool used for administering remote Linux and Unix-like computers. In this guide, we will discuss the basic usage of this utility and how to configure your SSH environment. (71KB)
-
-student
-sir I am not able to understand this
-
-mentor
-okay no issues you have to do something like this in your `terminal` type `ssh remote_username@remote_host`
-
-student
-Possible problems
-
-mentor
-it will prompt you for password type it and you will be loggedIn
-
-student
-I have put the password pressed enter
-what do I do now
-
-mentor
-your live code is in `projectsDir/app/`
-
-student
-ok sir I reached to the folder, I used cd command
-
-mentor
-Okay from now we will investigate what is the content your project is serving now.
-do `nano index.html` to check the contents of html your project is serving.
-
-student
-did that sir
-
-mentor
-it must be showing hacked html content
-there must be a backup directory having original `index.html`
-
-student
-it just shows html, how do I know if it is hacked (edited)
-
-why only `index.html`
-
-mentor
-You will have to read the contents of it unless you won’t be able to figure it out if its right or wrong
-also only `index.html` because it is the main HTML file we are rendering on website. so you have check for it’s content if its serving expected content.
-
-student
-ok sir so `index.html` is the hacked file
-I also see another html file named `corrupted.html` what do I do with that
-?
-Should I remove the hacked `index.html` file
-
-mentor
-since you have figured out that `index.html` is hacked.
-Might be possible someone specifically ‘Hacker’ moved the main content to `corrupted.html`.
-In this case remove `index.html` and rename `corrupted.html` to `index.html`.
-To remove `index.html` type `rm -rf index.html`
-once that is removed type `mv corrupted.html index.html` this will move the contents of `corrupted.html` to `index.html`
-now check for `projects.cclub.io:3000`. Congratulation you saved you ass  :stuck_out_tongue_winking_eye: (edited)
-
-student
-Awesome sir this works
-thanks
+In the meantime If you are more interested in learning how systems work and about hacking, learn these basic commands first
