@@ -1,0 +1,23 @@
+M> Hi <student>. You should be familiar with the idea of cclub by now.
+S> Yes
+M> Today we are going to perform a very basic project. This project will give you are very basic idea how web work and in what way communication happen between your system and servers.
+S> Okey tell me.
+M> You must have searched using google.com. Everybody does! When you type anyword using the search bar and then press enter, have you ever notice the url after that. If you notice again you will see that whatever word you have placed in search bar is up there.
+S> Yes i can see that.
+M> Cool. Now we will try to perform search directly by putting in the url. So try this url https://www.google.co.in/search?q=test
+S> This is showing me the search result.
+M> Cool. Now if you observe, we are trying to pass some parameters to google and getting the relevant result from google. Such requests are known as GET request in CS terminology.
+S> oh cool
+M> There are many other type of request which can be made also, but today lets just focus on GET requests. For you to play more with this and understand the topic better, we have created a simple web page. Try opening http://projects.cclub.io:8000/p0/
+S> It is opened.
+M> Now you can see that there are 3 boxes at the bottom. You can pass values just like you passed for google search. Try putting in http://projects.cclub.io:8000/p0/?gif=computer. 
+S> It is showing a different gif.
+M> You can even pass 2 values together. See what happen if you put in http://projects.cclub.io:8000/p0/?gif=computer&color=black
+S> It is changing both values at once.
+M> Cool. You can keep on playing with this. Try to pass wrong arguments and see what happen.
+S> Ok i will try that
+M> GET is the most widely used form of request. But there are many other form of requests which can be done. We will try doing all those and lot of other things in other projects. 
+S> Ok 
+M> If you are interested in further reading follow this link. <link>
+S> Ok
+M> Cool see you at the next project.
