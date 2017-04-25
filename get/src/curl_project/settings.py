@@ -25,7 +25,7 @@ SECRET_KEY = '$-q=-i%m@&j%&#k!ikqy&41hlw#aksq%d7@(_+513ikox*2c8u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['10.183.208.223']
+ALLOWED_HOSTS = ['projects.cclub.io']
 
 
 # Application definition
