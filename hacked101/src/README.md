@@ -12,4 +12,4 @@ For running and deploying application you need go through following steps
       forever start app.js
 
 ## Screenshots
-![Hacked Website](src/assets/images/hacked.png) ![Main](src/assets/images/main.png)
+![Hacked Website](assets/images/hacked.png) ![Main](assets/images/main.png)
