@@ -10,9 +10,9 @@ M> Cool. Now if you observe, we are trying to pass some parameters to google and
 S> oh cool
 M> There are many other type of request which can be made also, but today lets just focus on GET requests. For you to play more with this and understand the topic better, we have created a simple web page. Try opening http://projects.cclub.io:8000/p0/
 S> It is opened.
-M> Now you can see that there are 3 boxes at the bottom. You can pass values just like you passed for google search. Try putting in http://projects.cclub.io:8000/p0/?gif=computer. 
+M> Now you can see that there are 3 boxes at the bottom. You can pass values just like you passed for google search. Try putting in http://projects.cclub.io:8000/get/?gif=computer. 
 S> It is showing a different gif.
-M> You can even pass 2 values together. See what happen if you put in http://projects.cclub.io:8000/p0/?gif=computer&color=black
+M> You can even pass 2 values together. See what happen if you put in http://projects.cclub.io:8000/get/?gif=computer&color=black
 S> It is changing both values at once.
 M> Cool. You can keep on playing with this. Try to pass wrong arguments and see what happen.
 S> Ok i will try that
