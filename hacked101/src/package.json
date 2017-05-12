@@ -1,6 +1,27 @@
 {
+  "name": "hacked101",
+  "version": "1.0.0",
+  "description": "A Virus project added to P0 Projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "NONE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecclub/projects.git"
+  },
   "dependencies": {
     "express": "^4.15.2",
     "path": "^0.12.7"
-  }
+  },
+  "keywords": [
+    "NODE",
+    "Hacking"
+  ],
+  "author": "Harshit Anand <harshitanand94@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecclub/projects/issues"
+  },
+  "homepage": "https://github.com/thecclub/projects#readme"
 }
