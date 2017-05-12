@@ -1,0 +1,264 @@
+5/12/17, 11:25 AM - Abhijeet De: #project Remote Control
+5/12/17, 11:26 AM - Abhijeet De: You should be on ubuntu for this
+5/12/17, 11:26 AM - Abhijeet De: also have you worked on python
+5/12/17, 11:26 AM - ‪+91 84396 13011‬: Ok sir..its starting up
+5/12/17, 11:26 AM - ‪+91 84396 13011‬: Yes sir
+5/12/17, 11:26 AM - Abhijeet De: great
+5/12/17, 11:27 AM - Abhijeet De: let me know when its done
+5/12/17, 11:28 AM - ‪+91 84396 13011‬: Ok Sir..just 1 min
+5/12/17, 11:30 AM - ‪+91 84396 13011‬: Ready sir
+5/12/17, 11:30 AM - Abhijeet De: Ok so our goal is to remotely control your laptop
+5/12/17, 11:31 AM - Abhijeet De: Don't confuse this with ssh
+5/12/17, 11:31 AM - Abhijeet De: ok go to this site
+5/12/17, 11:31 AM - Abhijeet De: http://abhijeet.de/remote_control/
+5/12/17, 11:32 AM - Abhijeet De: it will ask you for a channel name, use anirudh for that
+5/12/17, 11:32 AM - ‪+91 84396 13011‬: its a chatroom
+5/12/17, 11:32 AM - Abhijeet De: kind of
+5/12/17, 11:33 AM - ‪+91 84396 13011‬: no its not asking
+5/12/17, 11:33 AM - Abhijeet De: try refereshing
+5/12/17, 11:33 AM - Abhijeet De: it will give you a promprt
+5/12/17, 11:33 AM - ‪+91 84396 13011‬: done sir
+5/12/17, 11:34 AM - Abhijeet De: Ok we were able to talk over it
+5/12/17, 11:34 AM - ‪+91 84396 13011‬: yes sir
+5/12/17, 11:35 AM - Abhijeet De: Now, tum soch rhe hoge ki channel ki kya zarurat hai
+5/12/17, 11:36 AM - ‪+91 84396 13011‬: yes
+5/12/17, 11:36 AM - Abhijeet De: What happens is when we put a channel we get subscribed to that channel
+5/12/17, 11:37 AM - ‪+91 84396 13011‬: ohh
+5/12/17, 11:37 AM - Abhijeet De: What is send to a channel will be sent to all the users subscribed to it
+5/12/17, 11:37 AM - ‪+91 84396 13011‬: like braodcasting
+5/12/17, 11:38 AM - Abhijeet De: This is called a publish and subscribe, better known as pubsub
+5/12/17, 11:38 AM - Abhijeet De: more like multicast
+5/12/17, 11:38 AM - ‪+91 84396 13011‬: ohk
+5/12/17, 11:38 AM - Abhijeet De: it does not go to everyone, but only those which are subscribed
+5/12/17, 11:39 AM - Abhijeet De: You can also do a group chat on this, only condition is everyone should be in the same channel
+5/12/17, 11:39 AM - Abhijeet De: Accha, pip installed hai kya?
+5/12/17, 11:40 AM - ‪+91 84396 13011‬: ha shud
+5/12/17, 11:40 AM - ‪+91 84396 13011‬: shyd
+5/12/17, 11:40 AM - Abhijeet De: ek baar check kr le
+5/12/17, 11:40 AM - ‪+91 84396 13011‬: check krta hu
+5/12/17, 11:40 AM - ‪+91 84396 13011‬: yes sir
+5/12/17, 11:40 AM - ‪+91 84396 13011‬: kr lia
+5/12/17, 11:40 AM - ‪+91 84396 13011‬: h
+5/12/17, 11:40 AM - Abhijeet De: ok
+5/12/17, 11:41 AM - Abhijeet De: install paho-mqtt
+5/12/17, 11:41 AM - Abhijeet De: pip install paho-mqtt
+5/12/17, 11:41 AM - Abhijeet De: ^^ use this command
+5/12/17, 11:41 AM - ‪+91 84396 13011‬: done
+5/12/17, 11:41 AM - ‪+91 84396 13011‬: but it shows a huge exception
+5/12/17, 11:42 AM - Abhijeet De: check the last line, it would say something like permission denied
+5/12/17, 11:42 AM - ‪+91 84396 13011‬: now its done
+5/12/17, 11:42 AM - ‪+91 84396 13011‬: yes sir
+5/12/17, 11:42 AM - Abhijeet De: for that just do sudo
+5/12/17, 11:42 AM - ‪+91 84396 13011‬: i wrote sudo
+5/12/17, 11:42 AM - Abhijeet De: cool
+5/12/17, 11:43 AM - Abhijeet De: one more thing, if you are doing any important work stop it
+5/12/17, 11:43 AM - Abhijeet De: I mean save and close the applications
+5/12/17, 11:43 AM - ‪+91 84396 13011‬: nothing
+5/12/17, 11:44 AM - Abhijeet De: cool
+5/12/17, 11:44 AM - Abhijeet De: ok download this file
+5/12/17, 11:44 AM - Abhijeet De: https://gist.github.com/iamads/a32394e84138093cdde651a615c3e960
+5/12/17, 11:45 AM - ‪+91 84396 13011‬: 👍🏻
+5/12/17, 11:45 AM - ‪+91 84396 13011‬: done
+5/12/17, 11:45 AM - Abhijeet De: so we will run the file
+5/12/17, 11:46 AM - ‪+91 84396 13011‬: ok
+5/12/17, 11:46 AM - Abhijeet De: it expects an argument for channel
+5/12/17, 11:46 AM - Abhijeet De: also use sudo to run this
+5/12/17, 11:46 AM - ‪+91 84396 13011‬: ok sir
+5/12/17, 11:46 AM - Abhijeet De: sudo python filename anirudh
+5/12/17, 11:47 AM - Abhijeet De: anirudh is channel name
+5/12/17, 11:47 AM - Abhijeet De: what happened?
+5/12/17, 11:48 AM - ‪+91 84396 13011‬: running it sir
+5/12/17, 11:48 AM - ‪+91 84396 13011‬: Connected with result code 0
+Traceback (most recent call last):
+  File "./remote_control_client.py", line 29, in <module>
+    client.loop_forever()
+  File "/usr/local/lib/python2.7/dist-packages/paho/mqtt/client.py", line 1410, in loop_forever
+    rc = self.loop(timeout, max_packets)
+  File "/usr/local/lib/python2.7/dist-packages/paho/mqtt/client.py", line 926, in loop
+    rc = self.loop_read(max_packets)
+  File "/usr/local/lib/python2.7/dist-packages/paho/mqtt/client.py", line 1209, in loop_read
+    rc = self._packet_read()
+  File "/usr/local/lib/python2.7/dist-packages/paho/mqtt/client.py", line 1802, in _packet_read
+    rc = self._packet_handle()
+  File "/usr/local/lib/python2.7/dist-packages/paho/mqtt/client.py", line 2284, in _packet_handle
+    return self._handle_connack()
+  File "/usr/local/lib/python2.7/dist-packages/paho/mqtt/client.py", line 2345, in _handle_connack
+    self.on_connect(self, self._userdata, flags_dict, result)
+  File "./remote_control_client.py", line 11, in on_connect
+    client.subscribe(str(sys.argv[1]))
+IndexError: list index out of range
+5/12/17, 11:49 AM - ‪+91 84396 13011‬: it shows this
+5/12/17, 11:49 AM - Abhijeet De: what was the command you ran
+5/12/17, 11:50 AM - Abhijeet De: screenshot would be great
+5/12/17, 11:51 AM - Abhijeet De: i think you missed the argument
+5/12/17, 11:51 AM - ‪+91 84396 13011‬: IMG-20170512-WA0001.jpg (file attached)
+5/12/17, 11:51 AM - Abhijeet De: use sudo and anirudh after file name
+5/12/17, 11:52 AM - Abhijeet De: sudo python ./remote_control_client.py anirudh
+5/12/17, 11:52 AM - ‪+91 84396 13011‬: connected
+5/12/17, 11:53 AM - ‪+91 84396 13011‬: with result code
+5/12/17, 11:53 AM - ‪+91 84396 13011‬: 0
+5/12/17, 11:53 AM - Abhijeet De: now go to that site and send something
+5/12/17, 11:54 AM - ‪+91 84396 13011‬: Ok sir
+5/12/17, 11:54 AM - Abhijeet De: you may have to referesh again there
+5/12/17, 11:55 AM - Abhijeet De: and set channel again to anirudh
+5/12/17, 11:55 AM - ‪+91 84396 13011‬: Its showing on my terminal
+5/12/17, 11:55 AM - ‪+91 84396 13011‬: 😁
+5/12/17, 11:55 AM - Abhijeet De: cool
+5/12/17, 11:55 AM - Abhijeet De: send a screenshot
+5/12/17, 11:56 AM - ‪+91 84396 13011‬: IMG-20170512-WA0002.jpg (file attached)
+5/12/17, 11:56 AM - Abhijeet De: Now magic will happen
+5/12/17, 11:57 AM - ‪+91 84396 13011‬: I saw the code..there was shutdown written
+5/12/17, 11:57 AM - ‪+91 84396 13011‬: 😂😂
+5/12/17, 11:57 AM - Abhijeet De: lol
+5/12/17, 11:57 AM - ‪+91 84396 13011‬: I knew this would happen at some point
+5/12/17, 11:57 AM - Abhijeet De: yeah that was the point
+5/12/17, 11:57 AM - Abhijeet De: so did your system shutdown
+5/12/17, 11:58 AM - ‪+91 84396 13011‬: Yes
+5/12/17, 11:58 AM - Abhijeet De: Cool that was my plan all along😈
+5/12/17, 11:58 AM - ‪+91 84396 13011‬: If i do not write sudo before the command will it work
+5/12/17, 11:58 AM - Abhijeet De: yes, you are correct
+5/12/17, 11:59 AM - Abhijeet De: but where is the fun in that
+5/12/17, 11:59 AM - ‪+91 84396 13011‬: I mean there would be insufficient permissions to do this
+5/12/17, 11:59 AM - ‪+91 84396 13011‬: Yes😁
+5/12/17, 11:59 AM - Abhijeet De: Ok, now let's see what is happening
+5/12/17, 11:59 AM - ‪+91 84396 13011‬: Yes sir
+5/12/17, 12:00 PM - Abhijeet De: So the protocol we are using is MQTT
+5/12/17, 12:00 PM - ‪+91 84396 13011‬: Ok
+5/12/17, 12:00 PM - Abhijeet De: Message Queue Telemetry Transport
+5/12/17, 12:01 PM - Abhijeet De: It is mostly used for Iot, as it consumes very low energy
+5/12/17, 12:01 PM - Abhijeet De: it is also used in facebook messenger
+5/12/17, 12:01 PM - ‪+91 84396 13011‬: Ohh
+5/12/17, 12:01 PM - ‪+91 84396 13011‬: Lightweight iot protocol
+5/12/17, 12:01 PM - Abhijeet De: if you see the code there is this line
+5/12/17, 12:02 PM - Abhijeet De: client.subscribe(str(sys.argv[1]))
+5/12/17, 12:02 PM - Abhijeet De: yes
+5/12/17, 12:02 PM - ‪+91 84396 13011‬: ?
+5/12/17, 12:02 PM - ‪+91 84396 13011‬: Yea sir
+5/12/17, 12:02 PM - Abhijeet De: in the python code
+5/12/17, 12:03 PM - Abhijeet De: so what this means is it will subscribe to the first argument provided
+5/12/17, 12:03 PM - ‪+91 84396 13011‬: Oh
+5/12/17, 12:03 PM - Abhijeet De: now it starts listening to the messages in that channel
+5/12/17, 12:03 PM - ‪+91 84396 13011‬: Ok
+5/12/17, 12:04 PM - ‪+91 84396 13011‬: Then it should execute shutdown command on the first message itself
+5/12/17, 12:04 PM - ‪+91 84396 13011‬: Why it took so long?
+5/12/17, 12:05 PM - Abhijeet De: come down to on_message method
+5/12/17, 12:05 PM - Abhijeet De: there you will see there is a if statement, which checks if msg.payload is equal to SHUTDOWN
+5/12/17, 12:06 PM - ‪+91 84396 13011‬: Yes sir
+5/12/17, 12:06 PM - Abhijeet De: BTW msg.payload is the body of the message
+5/12/17, 12:07 PM - Abhijeet De: so only when it gets the SHUTDOWN command, it will start shutting doen
+5/12/17, 12:07 PM - ‪+91 84396 13011‬: Ohh..
+5/12/17, 12:07 PM - Abhijeet De: *down
+5/12/17, 12:07 PM - ‪+91 84396 13011‬: That means you wrote shutdown
+5/12/17, 12:07 PM - ‪+91 84396 13011‬: Nice😁
+5/12/17, 12:07 PM - Abhijeet De: yeah I wrote shutdown
+5/12/17, 12:08 PM - Abhijeet De: that is the remote control
+5/12/17, 12:08 PM - ‪+91 84396 13011‬: 👍🏻
+5/12/17, 12:08 PM - Abhijeet De: ok come down, u will see: client.connect("test.mosca.io", 1883, 60)
+5/12/17, 12:09 PM - ‪+91 84396 13011‬: Yes sir
+5/12/17, 12:09 PM - Abhijeet De: test.mosca.io is the server address, 1883 is the port
+5/12/17, 12:09 PM - ‪+91 84396 13011‬: Ok
+5/12/17, 12:09 PM - ‪+91 84396 13011‬: And 60?
+5/12/17, 12:09 PM - Abhijeet De: test.mosca.io is a public server , anyone can use it
+5/12/17, 12:10 PM - ‪+91 84396 13011‬: Ok
+5/12/17, 12:11 PM - Abhijeet De: 60 is keepalive
+maximum period in seconds allowed between communications with the broker. If no other messages are being exchanged, this controls the rate at which the client will send ping messages to the broker
+5/12/17, 12:12 PM - Abhijeet De: it is to maintain a connection
+5/12/17, 12:12 PM - ‪+91 84396 13011‬: Ohh
+5/12/17, 12:12 PM - ‪+91 84396 13011‬: Ok sir
+5/12/17, 12:13 PM - Abhijeet De: And the site works in similar fashion
+5/12/17, 12:13 PM - Abhijeet De: you give the channel name first
+5/12/17, 12:13 PM - Abhijeet De: it subscribes to that channel
+5/12/17, 12:14 PM - Abhijeet De: whatever comes in, is shown you as messages
+5/12/17, 12:14 PM - ‪+91 84396 13011‬: How does the python script run on server?
+5/12/17, 12:14 PM - Abhijeet De: and whatever you type is published to server
+5/12/17, 12:14 PM - Abhijeet De: there is no script on server
+5/12/17, 12:15 PM - ‪+91 84396 13011‬: Ohh..
+5/12/17, 12:15 PM - Abhijeet De: By server you meant the site
+5/12/17, 12:15 PM - Abhijeet De: or test.mosca.io
+5/12/17, 12:15 PM - ‪+91 84396 13011‬: Yes sir
+5/12/17, 12:15 PM - Abhijeet De: which one?
+5/12/17, 12:16 PM - ‪+91 84396 13011‬: Site
+5/12/17, 12:16 PM - Abhijeet De: the site is completely run on the client side
+5/12/17, 12:16 PM - Abhijeet De: it runs on the browser
+5/12/17, 12:17 PM - ‪+91 84396 13011‬: No where does that script run?
+5/12/17, 12:17 PM - Abhijeet De: it uses MQTT.js mqtt connection, and sending and receiving messages
+5/12/17, 12:17 PM - Abhijeet De: which script?
+5/12/17, 12:17 PM - ‪+91 84396 13011‬: Which i ran on my computer
+5/12/17, 12:18 PM - Abhijeet De: That is running on your computer only
+5/12/17, 12:18 PM - ‪+91 84396 13011‬: IMG-20170512-WA0003.jpg (file attached)
+5/12/17, 12:18 PM - ‪+91 84396 13011‬: Is it this?
+5/12/17, 12:18 PM - ‪+91 84396 13011‬: Which is running on that chat?
+5/12/17, 12:19 PM - Abhijeet De: Yes, this is the javascript, it runs on your browser, uses MQTT>js
+5/12/17, 12:19 PM - Abhijeet De: MQTT.js
+5/12/17, 12:19 PM - ‪+91 84396 13011‬: Ok
+5/12/17, 12:20 PM - Abhijeet De: If you have a doubt, please ask, don't be shy
+5/12/17, 12:20 PM - ‪+91 84396 13011‬: Just one thing
+5/12/17, 12:20 PM - Abhijeet De: yeah go ahead
+5/12/17, 12:20 PM - ‪+91 84396 13011‬: Is it jquery?written..
+5/12/17, 12:21 PM - ‪+91 84396 13011‬: I just saw that a few days ago
+5/12/17, 12:21 PM - Abhijeet De: yes, it is jquery
+5/12/17, 12:21 PM - ‪+91 84396 13011‬: Ok sir thankyou
+5/12/17, 12:21 PM - ‪+91 84396 13011‬: Now i understood
+5/12/17, 12:22 PM - Abhijeet De: Cool
+5/12/17, 12:22 PM - Abhijeet De: If you don't understand, just ask
+5/12/17, 12:23 PM - Abhijeet De: This should be a 2-way communication, otherwise it would be more like what goes on in college
+5/12/17, 12:23 PM - ‪+91 84396 13011‬: Yes sir..
+5/12/17, 12:24 PM - ‪+91 84396 13011‬: In the script
+5/12/17, 12:24 PM - ‪+91 84396 13011‬: On_message
+5/12/17, 12:24 PM - ‪+91 84396 13011‬: And on_connect are methods of that library
+5/12/17, 12:24 PM - ‪+91 84396 13011‬: ?
+5/12/17, 12:25 PM - ‪+91 84396 13011‬: In Python one
+5/12/17, 12:25 PM - Abhijeet De: yes those methods are provided by the librar
+5/12/17, 12:25 PM - ‪+91 84396 13011‬: Ok sir..
+5/12/17, 12:26 PM - Abhijeet De: client = mqtt.Client()
+client.on_connect = on_connect
+client.on_message = on_message
+5/12/17, 12:27 PM - Abhijeet De: here we create a client, and then set client.on_connect and client.on_message to on_connect and on_message functions we have defined
+5/12/17, 12:27 PM - ‪+91 84396 13011‬: Ok sir.m
+5/12/17, 12:29 PM - Abhijeet De: Simply understand that when connection will be established you on_connect will be called
+5/12/17, 12:29 PM - Abhijeet De: and when a message comes in, on_message will be called
+5/12/17, 12:29 PM - ‪+91 84396 13011‬: Yes sir..its a callback
+5/12/17, 12:29 PM - Abhijeet De: yes
+5/12/17, 12:29 PM - ‪+91 84396 13011‬: Ok
+5/12/17, 12:30 PM - Abhijeet De: This is it for this project
+5/12/17, 12:30 PM - ‪+91 84396 13011‬: Thank you sir..
+5/12/17, 12:30 PM - Abhijeet De: So how was this project, you can rate it from 1 - 10 in terms of the following:
+5/12/17, 12:30 PM - Abhijeet De: 1) Fun
+5/12/17, 12:30 PM - Abhijeet De: 2) Did you learn something
+5/12/17, 12:30 PM - Abhijeet De: 3) usefulness
+5/12/17, 12:30 PM - Abhijeet De: 4) difficulty
+5/12/17, 12:31 PM - ‪+91 84396 13011‬: 10
+5/12/17, 12:31 PM - ‪+91 84396 13011‬: 10
+5/12/17, 12:31 PM - ‪+91 84396 13011‬: 10
+5/12/17, 12:31 PM - ‪+91 84396 13011‬: 7
+5/12/17, 12:32 PM - Abhijeet De: Great
+5/12/17, 12:32 PM - ‪+91 84396 13011‬: because i dont work on python much
+5/12/17, 12:32 PM - Abhijeet De: We would like
+5/12/17, 12:32 PM - Abhijeet De: you to add some more functionality to this code
+5/12/17, 12:32 PM - ‪+91 84396 13011‬: ok sir
+5/12/17, 12:33 PM - Abhijeet De: You can add anything you want
+5/12/17, 12:33 PM - ‪+91 84396 13011‬: oh
+5/12/17, 12:33 PM - ‪+91 84396 13011‬: ok
+5/12/17, 12:33 PM - Abhijeet De: may be like playing vlc remotely
+5/12/17, 12:33 PM - Abhijeet De: or your songs
+5/12/17, 12:34 PM - ‪+91 84396 13011‬: wow i'll try
+5/12/17, 12:34 PM - Abhijeet De: also, if you son't want to use python, you can do this in your favourite language
+5/12/17, 12:35 PM - Abhijeet De: you might have to use different MQTT library for that
+5/12/17, 12:35 PM - ‪+91 84396 13011‬: ok sir..i'll try it in java
+5/12/17, 12:35 PM - Abhijeet De: cool
+5/12/17, 12:36 PM - ‪+91 84396 13011‬: i'll shutdown my pc from the browser today 😂😂
+5/12/17, 12:36 PM - Abhijeet De: One last thing, this is very unsafe, since it is a public server anyone can see what messages you are sending
+5/12/17, 12:37 PM - ‪+91 84396 13011‬: Ohh..
+5/12/17, 12:37 PM - Abhijeet De: and do not run it with sudo access
+5/12/17, 12:37 PM - ‪+91 84396 13011‬: Like without subscribing
+5/12/17, 12:37 PM - ‪+91 84396 13011‬: Ok sir
+5/12/17, 12:38 PM - Abhijeet De: no not without subscribing, when you are subscribed but forgot to stop the script
+5/12/17, 12:38 PM - ‪+91 84396 13011‬: Ok sir
+5/12/17, 12:38 PM - Abhijeet De: someone might try to use your channel and shutdown your system
+5/12/17, 12:38 PM - Abhijeet De: That's it from my side
+5/12/17, 12:39 PM - ‪+91 84396 13011‬: Thank you..this was great
+5/12/17, 12:39 PM - ‪+91 84396 13011‬: 😄
+5/12/17, 12:39 PM - Abhijeet De: thanks
+5/12/17, 12:39 PM - Abhijeet De: have fun
+5/12/17, 12:40 PM - Abhijeet De: bye
+5/12/17, 12:40 PM - ‪+91 84396 13011‬: Bye
